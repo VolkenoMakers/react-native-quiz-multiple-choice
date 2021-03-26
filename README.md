@@ -85,7 +85,8 @@ export default QuizSingleChoiceApp;
 
 ## Properties
 
-| Property name| Type| Description| ------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
+| Property name             | Type       | Description                                                                                                |
+| ------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | **containerStyle**| _Object_ | Custom style for the screen container|
 | **questionTitleStyle**| _Object_ | custom style for the title of the question|
 | **responseStyle**| _Object_ | custom style for the container of each response|
