@@ -1,0 +1,38 @@
+{
+  "name": "react-native-react-native-quiz-single-choice",
+  "version": "1.0.0",
+  "description": "a react native single quiz module developped by volkeno",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VolkenoMakers/react-native-quiz-single-choice.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "react-native-quiz-single-choice",
+    "volkeno",
+    "quiz"
+  ],
+  "author": "VolkenoMakers",
+  "peerDependencies": {
+    "react": "^16.0.0-beta.5",
+    "react-native": "^0.49.1",
+    "react-native-elements": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-preset-expo": "~8.1.0",
+    "metro-react-native-babel-preset": "^0.59.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VolkenoMakers/react-native-quiz-single-choice/issues"
+  },
+  "dependencies": {
+    "react-native-elements": "^3.3.2"
+  }
+}
