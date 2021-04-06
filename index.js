@@ -1,3 +1,3 @@
-import QuizeSingleChoice from "./lib/QuizeSingleChoice";
+import QuizeMultipleChoice from "./lib/QuizeMultipleChoice";
 
-export default QuizeSingleChoice;
+export default QuizeMultipleChoice;

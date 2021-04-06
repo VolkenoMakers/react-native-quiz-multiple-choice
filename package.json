@@ -1,19 +1,19 @@
 {
-  "name": "react-native-react-native-quiz-single-choice",
+  "name": "react-native-react-native-quiz-multiple-choice",
   "version": "1.0.0",
-  "description": "a react native single quiz module developped by volkeno",
+  "description": "a react native multiple quiz module developped by volkeno",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VolkenoMakers/react-native-quiz-single-choice.git"
+    "url": "git+https://github.com/VolkenoMakers/react-native-quiz-multiple-choice.git"
   },
   "keywords": [
     "react-native",
     "react-native-component",
-    "react-native-quiz-single-choice",
+    "react-native-quiz-multiple-choice",
     "volkeno",
     "quiz"
   ],
@@ -30,7 +30,7 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VolkenoMakers/react-native-quiz-single-choice/issues"
+    "url": "https://github.com/VolkenoMakers/react-native-quiz-multiple-choice/issues"
   },
   "dependencies": {
     "react-native-elements": "^3.3.2"
