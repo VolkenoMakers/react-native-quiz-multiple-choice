@@ -5,17 +5,17 @@
 ## Add it to your project
 
 - Using NPM
-  `npm install react-native-quiz-multiple-choice`
+  `npm install volkeno-react-native-quiz-multiple-choice`
 - or:
 - Using Yarn
-  `yarn add react-native-quiz-multiple-choice`
+  `yarn add volkeno-react-native-quiz-multiple-choice`
 
 ## Usage
 
 ```javascript
 import React from "react";
 
-import QuizMultipleChoice from "react-native-quiz-multiple-choice";
+import QuizMultipleChoice from "volkeno-react-native-quiz-multiple-choice";
 
 const QuizMultipleChoiceApp = () => {
   const data = [
