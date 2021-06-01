@@ -1,7 +1,20 @@
 import React from "react";
+import { ViewStyle } from "react-native";
 import { TouchableOpacity } from "react-native";
-import { Button } from "react-native-elements";
-export const AppButton = ({ width, titleStyle, containerStyle, ...rest }) => {
+import { Button, ButtonProps } from "react-native-elements";
+
+interface ButtonProps2 extends ButtonProps {
+  width?: number | string;
+  backgroundColor?: string;
+  containerStyle: ViewStyle;
+  titleColor?: string;
+}
+export const AppButton = ({
+  width,
+  titleStyle,
+  containerStyle,
+  ...rest
+}: ButtonProps2) => {
   if (!rest.disabled) {
     rest.disabled = rest.loading;
   }
@@ -41,7 +54,7 @@ export const OppButton = ({
   titleStyle,
   containerStyle,
   ...rest
-}) => {
+}: ButtonProps2) => {
   if (!rest.disabled) {
     rest.disabled = rest.loading;
   }
