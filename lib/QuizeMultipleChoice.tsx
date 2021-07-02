@@ -134,10 +134,13 @@ const QuizeMultipleChoice = ({
       useNativeDriver: true,
     }).start();
   }, [currentIndex]);
-  const translateX = animation.interpolate({
-    inputRange: questions.map((_, index) => index),
-    outputRange: questions.map((_, index) => -index * width),
-  });
+  const translateX =
+    questions.length > 1
+      ? animation.interpolate({
+          inputRange: questions.map((_, index) => index),
+          outputRange: questions.map((_, index) => -index * width),
+        })
+      : 0;
   const isLast = currentIndex === questions.length - 1;
   const isFirst = currentIndex === 0;
   let nextDisabled = responseRequired
@@ -191,6 +194,7 @@ const QuizeMultipleChoice = ({
             onPrev();
           }}
           disabled={isFirst}
+          testID="prev"
           containerStyle={{
             width: "40%",
             backgroundColor: "#F00",
@@ -204,6 +208,7 @@ const QuizeMultipleChoice = ({
             onNext();
           }}
           disabled={nextDisabled}
+          testID="next"
           containerStyle={{
             width: "40%",
             backgroundColor: "#000",
@@ -305,6 +310,7 @@ function QuestionItem({
         disabled={disabled}
         containerStyle={{ backgroundColor: "#000", ...responseStyle }}
         width={"100%"}
+        testID={text}
         onPress={onPress}
         titleStyle={{ textTransform: "capitalize", ...responseTextStyle }}
         backgroundColor={"#000"}
